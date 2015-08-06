@@ -15,7 +15,8 @@ Here is the description from the article:
 "Using anonymous online interactions, participants first observed a dictator (endowed with $10) transfer an unfair amount of money ($1) to a victim who had no money (Fig. 1a). After witnessing this violation of the fairness norm (Fehr & Fischbacher, 2003), participants could choose to spend any amount of their own endowment ($5) to compel the dictator to give twice that amount to the victim (Fig. 1b). Participants were paid the amount that was left in their endowment after making the decision"
 
 
-[!![Third-Party Redistribution Schematic - Fig 1b](/schematic.png?raw=true "Optional Title")
+[!Third-Party Redistribution Schematic - Fig 1b](/schematic.png?raw=true "Third-Party Redistribution Schematic - Fig 1b")
+
 
 
 ##Task Code
@@ -73,16 +74,16 @@ _playGame.php_
 - The participant then has an opportunity to redistribute. 
 - Once the participant’s choice is in the database, the final payout information is shown to all participants. 
 - To accomplish this, behind the scenes this page loads a number of other scripts. 
-- checkForP1.php and checkForP3.php
-- These are called by playGame.php, the participant does not see these pages.
-- These scripts update the page when the database is updated by other players.
+    - _checkForP1.php_ and _checkForP3.php_
+        - These are called by playGame.php, the participant does not see these pages.
+        - These scripts update the page when the database is updated by other players.
     - _setTransfer.php_
         - These are called by playGame.php, the participant does not see these pages.
         - This script adds the dictator and participant’s choices into the database. 
     - _computePayment.php_
         - These are called by playGame.php, the participant does not see these pages.
         - This script is used to compute subject payments.
-        - Once the game is over complete, playGame.php sends participants to endGame.php
+- Once the game is over complete, playGame.php sends participants to endGame.php
 
 _endGame.php_
 - Participants are thanked.
