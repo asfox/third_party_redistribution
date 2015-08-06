@@ -1,0 +1,16 @@
+/* CSS Document */
+input{font-family:arial,sans-serif; font-size:20px;}
+font{font-family:arial,sans-serif; font-size:20px;}
+a{font-family:arial,sans-serif; font-size:20px;}
+td{font-family:arial,sans-serif; font-size:20px;}
+.unchangeable{background-color:#EEEEEE; color:#666666}
+.footer{font-size:9px; vertical-align:bottom}
+table.main{font-family:arial,sans-serif; font-size:20px; background-color:#ffdccc; width:750px; height:500px; border:0px; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; border-spacing: 0px; }
+table.inset{font-family:arial,sans-serif; font-size:20px; background-color:#ffeddd; border:0px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; border-spacing: 0px; }
+.highlight{background-color: #DD5446; height:35px;}
+.instructionText{font-family:arial,sans-serif; font-size:18px; position: absolute; top:55px; width:700px; }
+.instructionButton{font-family:arial,sans-serif; font-size:20px; position: absolute; top:450px; width:740px; }
+.finalText{font-family:arial,sans-serif; font-size:22px; position: absolute; top:200px; width:700px; }
+.smallish{font-size:14px;}
+.selected{font-weight:900; background:#ffaaaa; font-size:14px;}
+.prettyTable{background-color:#EEEEEE; color:#000000; font-size:14px;}
