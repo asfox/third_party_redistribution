@@ -15,6 +15,7 @@ Here is the description from the article:
 "Using anonymous online interactions, participants first observed a dictator (endowed with $10) transfer an unfair amount of money ($1) to a victim who had no money (Fig. 1a). After witnessing this violation of the fairness norm (Fehr & Fischbacher, 2003), participants could choose to spend any amount of their own endowment ($5) to compel the dictator to give twice that amount to the victim (Fig. 1b). Participants were paid the amount that was left in their endowment after making the decision"
 
 
+[!![Third-Party Redistribution Schematic - Fig 1b](/schematic.png?raw=true "Optional Title")
 
 
 ##Task Code
