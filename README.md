@@ -42,7 +42,7 @@ Your database must follow the schema in: econ\_game\_schema.sql
 
 The code _will need to be adapted_ to connect to your database, the url for your database should be specified in the $connect\_string and replace mysql://XXX in all .php files where it occurs. 
 
-To interact with the mysql database you will need to use DB.php (http://pear.php.net/package/DB/) and prototype.js (link???) which are both included in this git. 
+To interact with the mysql database you will need to use DB.php (http://pear.php.net/package/DB/) and [prototype.js](http://prototypejs.org/) which are both included in this repository. 
 
 
 ##Outline of web-page procedure.
